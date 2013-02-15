@@ -50,3 +50,26 @@ sub tamper_image {
     $$dataref = '';
   }
 }
+
+__END__
+ 
+=head1 NAME
+ 
+Kitten-Proxy
+ 
+=head1 SYNOPSIS
+ 
+  $ ./kittenProxy.pl [ cats | dogs | apes | random | puppy | sheen ]
+ 
+=head1 DESCRIPTION
+
+A very simple http proxy that replaces images by animals.
+
+This is just a funny example of what you can do with 
+L<HTTP::Proxy> and L<HTTP::Proxy::BodyFilter::simple>.
+
+=head1 AUTHOR
+ 
+David Escribano Garcia, L<www.davideg.es>
+                                                                                                                                                                                              
+=cut
