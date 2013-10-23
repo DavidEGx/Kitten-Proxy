@@ -7,7 +7,7 @@ Installation
 ------------
 Just install the dependences and download the script:
 
-    $ sudo apt-get libhttp-proxy-perl libimager-perl
+    $ sudo apt-get install libhttp-proxy-perl libimager-perl
     $ wget https://raw.github.com/DavidEGx/Kitten-Proxy/master/kittenProxy.pl
     $ chmod +x kittenProxy.pl
 
